@@ -1,0 +1,114 @@
+*{
+    font-family: 'Aleo';
+    margin: 2.5px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Aleo';
+    font-size: 18.5px;
+    scroll-behavior: smooth;
+}
+body{
+    border: 4px solid #009dff;
+    background-color: black;
+}
+header{
+    background-color: black;
+     margin-top: auto;
+    height: auto;
+    padding: 0;
+    width: auto;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+.header h1{
+    background-color:rgb(181, 183, 199);
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #009dff;
+    border-radius: 10px 10px 15px 15px ;
+    padding: 5px 15px 5px 15px;
+    margin: 3px;
+    display: flex;
+    color: transparent;
+    background:linear-gradient(50deg , #009dff , lightblue , #009dff , lightblue , #009dff , lightblue );
+    background-clip: Text;
+
+}
+.header nav ul{
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    padding-right: 15px;
+    list-style-type: none;
+}
+.header nav ul a{
+    color:lightblue;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    
+}
+
+.header nav ul a:hover{
+    color:#009dff;
+    font-size: 1.1rem;
+}
+#Home{
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-stretch: expanded;
+    background-color:black;
+    border-radius: 5px;
+}
+
+#Home h2{
+    border: 3px solid #009dff;
+    border-radius: 20px 0px 20px 0px;
+    padding: 5px 10px 5px 10px;
+    border-width: 0.2%;
+    box-sizing: border-box;
+    display: inline-block;
+    color: transparent;
+    background:linear-gradient(50deg , #009dff , lightblue , #009dff , lightblue , #009dff , lightblue );
+    background-clip: Text;
+}
+#Home p{
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: transparent;
+    background:linear-gradient(50deg , #009dff , lightblue , #009dff , lightblue , #009dff , lightblue );
+    background-clip: Text;
+}
+#Home ol{
+    align-items: center;
+    font-style: oblique;
+    margin:5px ;
+    padding: 10px;
+    text-align: justify;
+    font-variant: small-caps;
+    color: transparent;
+    background:linear-gradient(50deg , #009dff , lightblue , #009dff , lightblue , #009dff , lightblue );
+    background-clip: Text;
+}
+#Home b{
+    color: transparent;
+    background:linear-gradient(50deg , #009dff , lightblue , #009dff , lightblue , #009dff , lightblue );
+    background-clip: Text;
+}
+
+
+
